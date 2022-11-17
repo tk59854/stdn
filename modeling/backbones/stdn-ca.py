@@ -49,7 +49,7 @@ class DPConv(nn.Module):  # decoupled parallel
             print('--- local branch ---')
             s_flops = 3*3*self.dim*self.dim*self.h*self.w * 30
         
-        t_flops = 3*self.dim*self.dim/4*30*64 * 2 + 2 * self.dim*self.h*self.w  # [ phi_(t) ] + [ P*Q+P ]
+        t_flops = 3*self.dim*(self.dim/4)*30*self.h * 2 + 2 * self.dim*self.h*self.w  # [ phi_(t) ] + [ P*Q+P ]
         
         print('s_flops for dim: ({}, {}, {}) = {}'.format(self.dim, self.h, self.w, s_flops))
         print('t_flops for dim: ({}, {}) = {}'.format(self.dim, self.h, t_flops))
@@ -208,8 +208,6 @@ class STDN(nn.Module):
         FLOPs = all_flops / 1e9
         print('flops of ALL = {} G'.format(FLOPs))
             
-
-
 
 if __name__ == '__main__':
     import time
