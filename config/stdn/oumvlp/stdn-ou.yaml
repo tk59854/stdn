@@ -4,7 +4,7 @@ save_name: STDN-OU
 
 data_cfg:
   dataset_name: OUMVLP
-  dataset_root: your path
+  dataset_root: your_path
   dataset_partition: ./datasets/OUMVLP/OUMVLP.json
   num_workers: 8
   remove_no_gallery: false # Remove probe if no gallery for it

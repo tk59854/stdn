@@ -4,7 +4,7 @@ save_name: STDN-CA
 
 data_cfg:
   dataset_name: CASIA-B
-  dataset_root: /ai/tps/datasets/CASIA-B-pkl
+  dataset_root: your_path
   num_workers: 8
   remove_no_gallery: false # Remove probe if no gallery for it
   test_dataset_name: CASIA-B
