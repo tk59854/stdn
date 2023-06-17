@@ -1,5 +1,7 @@
 # Efficient Gait Recognition via Spatial-Temporal Decoupled Network
 
+This is an offcial repo of paper 'Efficient Gait Recognition via Spatial-Temporal Decoupled Network'
+
 ## Method
 ### Pipeline
 ![pipeline](pic/pipe.png)
