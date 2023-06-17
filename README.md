@@ -2,7 +2,9 @@
 This repo is based on [OpenGait](https://github.com/ShiqiYu/OpenGait).
 
 ## Usage
-`python run.py
+```python
+python run.py
+```
 
 
 
