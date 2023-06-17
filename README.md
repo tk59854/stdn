@@ -15,7 +15,7 @@ This is an offcial repo of paper 'Efficient Gait Recognition via Spatial-Tempora
 ```python
 python run.py
 ```
-## Spacial Thanks
+## Acknowledgement
 This repo is based on [OpenGait](https://github.com/ShiqiYu/OpenGait).
 
 
